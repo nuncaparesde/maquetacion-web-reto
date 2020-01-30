@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,600|Open+Sans:300,400,700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F2F2F2;
+}
+figure, body, html, h1, h2, h3, p{
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --title-font: 'Crimson Text', serif;
+  --box: rgb(79, 79, 79) -1px 5px 10px -6px;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas: "aside main";
+}
+
+.personal-info {
+  /* width: 20%; */
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  grid-area: aside;
+  background-color: #ACB8BF;
+}
+.personal-info__user-pic {
+  width: 100px;
+  height: 100px;
+  background-image: url('../images/profile_picture.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.personal-info__name {
+  font-size: 1.5em;
+  font-family: var(--title-font);
+  margin-top: 5px;
+}
+.personal-info__separator {
+  width: 5px;
+  height: 5px;
+  background-color: gray;
+  border-radius: 50%;
+  margin: 5px 0;
+}
+.personal-info__description {
+  font-size: .9em;
+  text-align: center;
+  font-weight: 300;
+}
+
+/****************************** Empieza Main */
+.entry  {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  height: 150px;
+  border-radius: 10px;
+  /* border-style: solid;
+  border-color: black;
+  border-width: 1px; */
+  overflow: hidden;
+  box-shadow: var(--box);
+  margin: 23px 20px;
+
+}
+.entry__img-container{
+  width: 33%;
+  height: 100%;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('https://cdn.searchenginejournal.com/wp-content/uploads/2019/09/4077bad7-e943-423c-a9f6-00ff35b9a664.webp');
+  background-position: center;
+  background-size: 140%;
+  background-repeat: no-repeat;
+}
+.entry2 {
+  background-image: url('https://www.eturbonews.com/wp-content/uploads/2019/08/writing1.jpg');
+}
+.entry3 {
+  background-image: url('https://blogs.biomedcentral.com/on-physicalsciences/wp-content/uploads/sites/14/2019/02/data-1-620x342.jpg');
+}
+.entry4 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBz8IcgABPHtd9fT88VwNBmk_Fm861TiwMa50pr1ByoshXp8m5&s');
+}
+.entry5 {
+  background-image: url('https://ksr-ugc.imgix.net/assets/011/512/107/1988f3a0fc77cc3eac49cac6f1b7ebc0_original.png?ixlib=rb-2.1.0&crop=faces&w=1552&h=873&fit=crop&v=1463683806&auto=format&frame=1&q=92&s=7037537d3031513ff4a7222daf1256a3');
+}
+
+
+.entry__img-container:hover {
+  background-size: cover;
+}
+.entry-description {
+  padding-left: 15px;
+}
+.entry-description__title {
+  font-size: 2em;
+  font-family: var(--title-font);
+  font-weight: 600;
+}
+.entry-description__content {
+  font-size: .9em;
+  padding-bottom: 10px;
+}
+.entry-description__date {
+  font-size: .8em;
+  display: flex;
+  align-items: center;
+}
+.entry-description__separator {
+  border-bottom: 1.5px solid gray ;
+  width: 5px;
+  height: 1px;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+
+
+
+
+
