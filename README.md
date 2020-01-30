@@ -1,14 +1,21 @@
-## Identa
+# Reto de Maquetación
+Es genial que hayas decidido realizar el reto de maquetación.
 
-Genera el contenido a tu portafolio
+## Instrucciones
+* Clona el código de este repositorio
+* El reto está dividido en tres niveles: básico, intermedio y avanzado. No es necesario realizar los tres niveles, puedes reallizar uno, dos o los tres.
+* Realiza los cambios o crea los códigos necesarios para los retos.
+* Envíanos un pull request con tu solución.
 
-## Intermedio
+### Reto básico
+Indenta y genera el contenido con tu información del código HTML del archivo portafolio.html
 
-https://platzi.com/clases/html-css/
+### Reto intermedio
+Realiza la maquetación de la imagen del archivo assets/intermedio.png
 
 ![intermedio](./assets/intermedio.png)
 
-## Avanzado
+## Reto avanzado
+Realiza la maquetación de la imagen del archivo assets/Avanzado.png
 
-http://artemsheludko.com/flexible-jekyll/![Avanzado](./assets/Avanzado.png)
-
+![Avanzado](./assets/Avanzado.png)
