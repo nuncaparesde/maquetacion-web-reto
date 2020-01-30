@@ -1,0 +1,22 @@
+body {
+  background-color: var(--black-color);
+}
+.content-paypal {
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.success-image {
+  width: 25%;
+}
+.fail-image {
+  width: 15%;
+}
+
+.content-paypal a {
+  color: var(--green-color);
+  text-decoration: underline;
+}
