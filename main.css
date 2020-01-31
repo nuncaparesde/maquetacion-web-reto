@@ -1,0 +1,90 @@
+body{
+  margin: 0px;
+  background-color: #e9e9e9;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 1fr 50px;
+}
+
+main{
+  height: 500px;
+  margin: 20px;
+  padding: 20px 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.articles{
+  margin: 10px 50px 10px 0px;
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+footer{
+  margin: 10px 20px;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main */
+main img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+main h1{
+  font-size: 16px;
+}
+
+main div{
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+main p{  
+  font-size: 15px;
+  text-align: center;
+  opacity: .8;
+}
+
+/* Articles */
+
+article{
+  width: 75vw;
+  margin: 10px 0px;
+  display: inline-flex;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px gray;
+}
+
+article img{
+  width: 352.16px;
+  height: 200.47px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+article div{
+  margin: 10px 10px 10px 20px;
+}
+
+article h2{
+  font-size: 28px;
+  font-weight: normal;
+}
+
+article .article_date{
+  opacity: .7;
+}
+
+article:hover{
+  border: 1px gray solid;
+}
